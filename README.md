@@ -1,6 +1,6 @@
 ## About City Planner API
 
-City's business liasons for a way to get a few different pieces of information via a restful API endpoints, such as:
+City's business liasons wants a way to get a few different pieces of information via a restful API endpoints, such as:
 
 - Fetch all people living in your city.
 - Fetch all cars when providing a particular street name.
@@ -9,7 +9,7 @@ City's business liasons for a way to get a few different pieces of information v
 
 ## How to Install
 
-First of all clone the repository. [clone](https://github.com/khushal3048/WPY_Coding_Challenge) and then following commands.
+First of all [clone](https://github.com/khushal3048/WPY_Coding_Challenge) the repository and then run following commands.
 
 ```php
 Composer install
@@ -25,12 +25,12 @@ City Planner API is authenticated with API KEY(25E52DA9B217CEA8F768F2249AB8F).
 
 - **[GET] api/cars**
 
-...Query Params (street_name - string)
+   Query Params (street_name - string)
 
 - **[GET] api/owners**
 
-...Query Params (license_plate - string)
+   Query Params (license_plate - string)
 
 - **[GET] api/house**
 
-...Query Params (person_name - string)
+   Query Params (person_name - string)
