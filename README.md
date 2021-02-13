@@ -9,7 +9,7 @@ City's business liasons wants a way to get a few different pieces of information
 
 ## How to Install
 
-First of all clone the repository. [clone](https://github.com/khushal3048/WPY_Coding_Challenge) and then following commands.
+First of all [clone](https://github.com/khushal3048/WPY_Coding_Challenge) the repository and then following commands.
 
 ```php
 Composer install
