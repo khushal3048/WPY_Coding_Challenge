@@ -17,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::group(['as' => 'api.', 'middleware' => ['auth_key']], function () {
+    Route::get('/people', 'APIController@getPeople');
+    Route::get('/cars', 'APIController@getCars');
+    Route::get('/owner', 'APIController@getOwner');
+    Route::get('/house', 'APIController@getHouse');
+});
